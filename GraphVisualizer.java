@@ -860,6 +860,6 @@ class ControlPanel extends JPanel {
         add(Box.createVerticalStrut(20));
         
         // Create initial graph
-        graph.generateRandomGraph(20, 0.3);
+        graph.generateGridGraph(5, 5);
     }
 }
